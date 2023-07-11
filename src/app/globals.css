@@ -2,8 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
+
+body{
+@apply flexcroll;
+}
+
 .heroBackground
 {
   width: 100;
   height: 100vh;
+}
+
+.container
+{
+  @apply mx-auto w-[90%];
+}
+
+/* scrollbar design */
+.flexcroll {
+  overflow: scroll;
+}
+.flexcroll {
+  scrollbar-shadow-color: transparent;
+  scrollbar-highlight-color: transparent;
+  scrollbar-3dlight-color: transparent;
+  scrollbar-darkshadow-color: transparent;
+  scrollbar-track-color: transparent;
+  scrollbar-arrow-color: transparent;
+}
+
+.flexcroll::-webkit-scrollbar {
+  width: 8px;
+  height: 100%;
+}
+
+.flexcroll::-webkit-scrollbar-track {
+  /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.flexcroll::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #a3a6b3;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }
