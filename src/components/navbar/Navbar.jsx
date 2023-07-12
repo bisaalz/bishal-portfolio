@@ -109,7 +109,7 @@ const Navbar = () => {
                 HELLO THERE, WELCOME TO MY SITE
               </h6>
               <span className="text-[#ffffff] font-medium text-4xl">
-                I'am Bishal Ghimire
+                I am Bishal Ghimire
               </span>
               <h2
                 className="font-medium text-4xl md:text-5xl xl:text-7xl !leading-[114%] text-[#ffffff] "
