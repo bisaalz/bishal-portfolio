@@ -14,7 +14,7 @@ body{
 }
 
 .boxShadow {
-  background: rgba(255,255,255,.30);
+  background: rgba(255,255,255,.10);
     -webkit-backdrop-filter: blur(6px);
     backdrop-filter: blur(6px);
     border-bottom: 1px solid rgba(255,255,255,.1);
