@@ -128,8 +128,6 @@ const Navbar = () => {
                 Designer
               </h2>
             </div>
-
-            <div></div>
           </div>
         </div>
       </div>
