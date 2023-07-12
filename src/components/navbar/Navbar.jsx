@@ -1,7 +1,13 @@
+'use client'
 import React from "react";
-import Image from "next/image";
+import Image from "next/image"
+import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 const Navbar = () => {
+  const [text] = useTypewriter({
+    words: ['I am Bishal Ghimire'],
+    loop: 0
+  })
   return (
     <>
       <div className="relative">
@@ -108,9 +114,12 @@ const Navbar = () => {
               <h6 className="text-[#ffffff] font-medium">
                 HELLO THERE, WELCOME TO MY SITE
               </h6>
-              <span className="text-[#ffffff] font-medium text-4xl">
-                I am Bishal Ghimire
+              <div className="glitch">
+              <span className="text-[#ffffff] font-medium text-4xl glitch__text">
+                {text}
+                <Cursor cursorColor='red' />
               </span>
+              </div>
               <h2
                 className="font-medium text-4xl md:text-5xl xl:text-7xl !leading-[114%] text-[#ffffff] "
                 style={{ opacity: "1", transform: "none" }}
@@ -120,7 +129,7 @@ const Navbar = () => {
               </h2>
             </div>
 
-            <div>1</div>
+            <div></div>
           </div>
         </div>
       </div>
