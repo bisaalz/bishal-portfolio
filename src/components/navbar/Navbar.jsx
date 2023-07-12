@@ -14,7 +14,7 @@ const Navbar = () => {
                   class="flex items-center"
                 >
                   <span class="font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-[#ffffff] to-[#ffffff]">
-                    Bishal
+                    Bis<span className="text-[#DC2626]">hal</span>
                   </span>
                 </a>
                 <div class="flex md:order-2">
