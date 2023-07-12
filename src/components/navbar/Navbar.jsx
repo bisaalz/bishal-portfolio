@@ -105,19 +105,23 @@ const Navbar = () => {
         <div className="absolute top-[40%] left-[12%] container">
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="space-y-2">
-              <h6 className="text-[#ffffff] font-medium">HELLO THERE, WELCOME TO MY SITE</h6>
-              <span className="text-[#ffffff] font-medium text-xl">I'am Bishal Ghimire</span>
-            <h2
-            class="font-medium text-4xl md:text-5xl xl:text-7xl !leading-[114%] text-[#ffffff] "
-            style={{ opacity: "1", transform: "none" }}
-          >
-            <span className="text-[#DC2626]">A Frontend</span> &amp; UI/UX Designer
-          </h2>
+              <h6 className="text-[#ffffff] font-medium">
+                HELLO THERE, WELCOME TO MY SITE
+              </h6>
+              <span className="text-[#ffffff] font-medium text-4xl">
+                I'am Bishal Ghimire
+              </span>
+              <h2
+                class="font-medium text-4xl md:text-5xl xl:text-7xl !leading-[114%] text-[#ffffff] "
+                style={{ opacity: "1", transform: "none" }}
+              >
+                <span className="text-[#DC2626]">A Frontend</span> &amp; UI/UX
+                Designer
+              </h2>
             </div>
-         
-          <div>1</div>
+
+            <div>1</div>
           </div>
-       
         </div>
       </div>
     </>
